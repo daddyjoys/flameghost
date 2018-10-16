@@ -5,6 +5,7 @@ if ( !empty($_REQUEST['data']) )  {
 	$result = $app->parse($_REQUEST['data']);
 }
 echo $result;
+//
 
 class PARSER_DOCX {
 
